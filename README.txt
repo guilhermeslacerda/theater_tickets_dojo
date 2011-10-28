@@ -26,3 +26,7 @@ Sexta-Feira
 Domingo/Sábados/Feriados
       - 5% Idosos
 
+
+MUDAR!!
+** switch maldito na strategy
+** rever nome dos métodos de teste para melhor compreensão das regras de negócio
