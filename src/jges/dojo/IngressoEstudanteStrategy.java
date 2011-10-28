@@ -10,6 +10,11 @@ public class IngressoEstudanteStrategy implements IngressoStrategy {
     }
 
     @Override
+    public double no(int diaDaSemana) {
+        return na(diaDaSemana);
+    }
+
+    @Override
     public double na(int diaDaSemana) {
         switch(diaDaSemana) {
             case Calendar.MONDAY: return VALOR_INGRESSO * 0.90;

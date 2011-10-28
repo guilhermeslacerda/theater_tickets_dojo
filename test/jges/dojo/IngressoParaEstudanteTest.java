@@ -103,10 +103,10 @@ public class IngressoParaEstudanteTest {
                      teatro.ingressoPara(estudante).na(Calendar.FRIDAY),   
                      0.001);
         assertEquals(8,
-                     teatro.ingressoPara(estudante).na(Calendar.SATURDAY),   
+                     teatro.ingressoPara(estudante).no(Calendar.SATURDAY),   
                      0.001);
         assertEquals(8,
-                     teatro.ingressoPara(estudante).na(Calendar.SUNDAY),   
+                     teatro.ingressoPara(estudante).no(Calendar.SUNDAY),   
                      0.001);
     }
 
